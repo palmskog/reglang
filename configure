@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+NAMESPACE__="RegLang"
+source coqproject.sh

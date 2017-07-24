@@ -1,0 +1,14 @@
+-Q ./ RegLang
+
+./vardi.v
+./setoid_leq.v
+./nfa.v
+./two_way.v
+./myhill_nerode.v
+./regexp.v
+./shepherdson.v
+./languages.v
+./dfa.v
+./wmso.v
+./misc.v
+./minimization.v
