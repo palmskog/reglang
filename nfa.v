@@ -159,8 +159,8 @@ Proof.
   - rewrite inE => /eqP->. case: w => [|b [|c w]] /=; first by rewrite inE.
     + by case/exists_inP => [[/eqP->|//]].
     + case/exists_inP => [[_|//]]. by case/exists_inP.
-  - move->. exists false; first by rewrite inE. apply/exists_inP. 
-    exists true; by rewrite ?inE //=.
+  - move->. exists false; first by rewrite inE. apply/exists_inP.
+    exists true; by rewrite //= inE.
 Qed.
 
 Definition nfa_plus (N M : nfa) := 
