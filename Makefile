@@ -16,6 +16,9 @@ endif
 default: Makefile.coq
 	$(MAKE) -f Makefile.coq
 
+install: Makefile.coq
+	$(MAKE) -f Makefile.coq install
+
 Makefile.coq: _CoqProject
 	$(COQ_MAKEFILE) -f _CoqProject -o Makefile.coq
 
@@ -27,4 +30,4 @@ clean:
 distclean: clean
 	rm -f _CoqProject
 
-.PHONY: default clean distclean
+.PHONY: default clean distclean install
