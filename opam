@@ -2,8 +2,8 @@ opam-version: "1.2"
 version: "dev"
 maintainer: "palmskog@gmail.com"
 homepage: "https://www.ps.uni-saarland.de/extras/RLR-Coq/"
-dev-repo: "https://github.com/palmskog/reglang.git"
-bug-reports: "https://github.com/palmskog/reglang/issues"
+dev-repo: "https://github.com/proofengineering/reglang.git"
+bug-reports: "https://github.com/proofengineering/reglang/issues"
 license: "Proprietary"
 
 build: [
