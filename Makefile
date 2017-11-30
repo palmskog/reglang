@@ -25,7 +25,7 @@ Makefile.coq: _CoqProject
 clean:
 	if [ -f Makefile.coq ]; then \
 	  $(MAKE) -f Makefile.coq cleanall; fi
-	rm -f Makefile.coq
+	rm -f Makefile.coq Makefile.coq.conf
 
 distclean: clean
 	rm -f _CoqProject
