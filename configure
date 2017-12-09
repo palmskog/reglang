@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
 NAMESPACE__="RegLang"
+CANARIES=("mathcomp.ssreflect.ssreflect" "mathcomp-ssreflect must be installed")
 source coqproject.sh
